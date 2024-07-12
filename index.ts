@@ -52,3 +52,6 @@ let arrIn: Array<number>=[21.35,5]
 
 //lunion des type
  let arr4: (string | number | boolean)[] = [false,1,"sd"];
+
+ //les generiques
+ const returnval = <T> (arg:T) :T =>{arg};

@@ -22,3 +22,5 @@ let arr2 = ["pa", "plus", "sd"];
 let arrIn = [21.35, 5];
 //lunion des type
 let arr4 = [false, 1, "sd"];
+//les generiques
+const returnval = (arg) => { arg; };
