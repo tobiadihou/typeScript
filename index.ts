@@ -42,3 +42,13 @@ const users: User2 & Admin ={
     age: 0,
     isdamin:false
 }
+
+//les tableau 
+
+let arr: number[]= [2,3,5,6];
+let arrs: string[]= ["2,3,5,6"];
+let arr2: Array<string>= ["pa","plus","sd"];
+let arrIn: Array<number>=[21.35,5]
+
+//lunion des type
+ let arr4: (string | number | boolean)[] = [false,1,"sd"];
